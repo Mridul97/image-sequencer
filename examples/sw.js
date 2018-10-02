@@ -1,4 +1,4 @@
-const staticCacheName = 'image-sequencer-static-v1';
+const staticCacheName = 'image-sequencer-static-v2';
 
 self.addEventListener('install', event => {
   console.log('Attempting to install service worker');
