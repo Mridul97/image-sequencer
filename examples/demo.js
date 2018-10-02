@@ -53,7 +53,7 @@ window.onload = function() {
   });
 
   if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('sw.js', { scope: '/examples/' })
+    navigator.serviceWorker.register('sw.js', { scope: '/image-sequencer/examples/' })
       .then(function(registration) {
         const installingWorker = registration.installing;
         installingWorker.onstatechange = () => {
